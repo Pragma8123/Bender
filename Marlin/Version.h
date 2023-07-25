@@ -31,10 +31,15 @@
 #define SHORT_BUILD_VERSION "bugfix-2.1.x"
 
 /**
+ * Bender release version identifier
+*/
+#define BENDER_BUILD_VERSION "v4.0.0"
+
+/**
  * Verbose version identifier which should contain a reference to the location
  * from where the binary was downloaded or the source code was compiled.
  */
-#define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION
+#define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION " | " BENDER_BUILD_VERSION
 
 /**
  * The STRING_DISTRIBUTION_DATE represents when the binary file was built,
