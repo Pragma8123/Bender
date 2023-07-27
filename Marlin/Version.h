@@ -33,7 +33,7 @@
 /**
  * Bender release version identifier
 */
-#define BENDER_BUILD_VERSION "v4.2.1"
+#define BENDER_BUILD_VERSION "v4.2.2"
 
 /**
  * Verbose version identifier which should contain a reference to the location
